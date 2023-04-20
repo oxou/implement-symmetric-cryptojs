@@ -1,0 +1,85 @@
+* {
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    border-width: 1px;
+}
+
+input,
+button,
+textarea,
+select {
+    background: #fff;
+    border-style: solid;
+    padding: 4px;
+    font-size: calc(18px / 1.2);
+    border-color: #000;
+}
+
+input:hover,
+button:hover,
+textarea:hover,
+select:hover {
+    background: #eee;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+    background: #fff;
+    border-color: #aaa;
+}
+
+input:focus:hover,
+button:focus:hover,
+textarea:focus:hover,
+select:focus:hover {
+    background: #fff;
+    border-color: #444;
+}
+
+html,
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    overflow: hidden;
+}
+
+body {
+    padding: 16px;
+}
+
+.head {
+    background: #adf;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
+    color: #036;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.input {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: calc(100vh - 124px);
+    max-height: calc(100vh - 124px);
+    height: calc(100vh - 124px);
+    resize: none;
+}
+
+.methods {
+    margin-top: 12px;
+}
+
+.methods input {
+    width: calc(100% - 228px);
+}
+
+.methods button {
+    width: 100px;
+    margin-left: 10px;
+}
